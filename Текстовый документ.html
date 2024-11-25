@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заправки Helios в Алматы</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff9900; /* Цвет фона для логотипа Helios */
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        header img {
+            max-width: 200px;
+        }
+        .info-section {
+            padding: 20px;
+            background-color: #ffffff;
+            margin-top: 20px;
+        }
+        .info-section h2, .info-section h3 {
+            text-align: center;
+        }
+        .info-section ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        .info-section ul li {
+            margin: 10px 0;
+        }
+        .btn {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #ff9900;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #e68900;
+        }
+        #map-container {
+            margin-top: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with logo -->
+    <header>
+        <img src="https://pavlodarmaps.ru/upload/000/u1/8/d/azs-helios-photo-place.jpg" alt="Логотип заправки Helios в Алматы">
+    </header>
+
+    <!-- Information about Helios stations -->
+    <section class="info-section">
+        <h2>Заправки Helios в Алматы</h2>
+        <p>На этом сайте вы можете найти информацию о местоположении заправок Helios в Алматы. Ознакомьтесь с адресами заправок и перейдите на карту для их просмотра.</p>
+
+        <h3>Адреса заправок Helios в Алматы:</h3>
+        <ul>
+            <li>Заправка 1: ул. Таира Жарокова, 234</li>
+            <li>Заправка 2: просп. Абая, 191А</li>
+            <li>Заправка 3: ул. Толе би, 153</li>
+            <li>Заправка 4: просп. Сакена Сейфуллина, 603</li>
+            <li>Заправка 5: ул. Климента Тимирязева, 8Б</li>
+            <li>Заправка 6: ул. Сабита Муканова, 226А</li>
+            <li>Заправка 7: ул. Чайковского, 150</li>
+        </ul>
+
+        <a href="#map-container" class="btn">Перейти на карту</a>
+    </section>
+
+    <!-- Yandex Map -->
+    <section class="container" id="map-container">
+        <h2>Карта с заправками Helios в Алматы</h2>
+       <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab22be282b516692d57bb7779f870c25bfb9f360cf03ed71ef9626b8609e215fc&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+                frameborder="0"></iframe>
+    </section>
+
+</body>
+</html>
